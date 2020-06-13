@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TipCalculator", "TipCalcula
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipCalculator.Core", "TipCalculator.Core\TipCalculator.Core.csproj", "{C61AB1DE-B718-43C5-A50A-03A8F6B939DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipCalculator.Android", "TipCalculator.Android\TipCalculator.Android.csproj", "{445613A9-830E-4483-BF14-FF2E84ED35B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,19 @@ Global
 		{C61AB1DE-B718-43C5-A50A-03A8F6B939DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C61AB1DE-B718-43C5-A50A-03A8F6B939DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C61AB1DE-B718-43C5-A50A-03A8F6B939DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{445613A9-830E-4483-BF14-FF2E84ED35B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{445613A9-830E-4483-BF14-FF2E84ED35B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{445613A9-830E-4483-BF14-FF2E84ED35B2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{445613A9-830E-4483-BF14-FF2E84ED35B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{445613A9-830E-4483-BF14-FF2E84ED35B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{445613A9-830E-4483-BF14-FF2E84ED35B2}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C61AB1DE-B718-43C5-A50A-03A8F6B939DC} = {957D86A7-7818-4ECB-9A17-C929FB946824}
+		{445613A9-830E-4483-BF14-FF2E84ED35B2} = {957D86A7-7818-4ECB-9A17-C929FB946824}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F7CD67C3-65C3-4F0F-8833-ED72FD0E672C}
